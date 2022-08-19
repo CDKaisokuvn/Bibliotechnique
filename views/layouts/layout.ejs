@@ -10,7 +10,9 @@
     Before
 
     <br />
-    <%- body %>
+    <%- include('../partials/header.ejs')%> <%-
+    include('../partials/error.ejs')%> <%- body %> <%-
+    include('../partials/bottom.ejs')%>
     <br />
 
     After
